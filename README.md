@@ -5,15 +5,15 @@ Brief description of the project
 Presentation of the Ghibli animation films.
 
 
-## MVP (DOM - CANVAS)
+## MVP (DOM - RESPONSIVE SITE)
 MVP definition, deliverables.
 - 5 pages html responsive
-- Film animations html / conectado con API Ghibli
+- Film animations html / conect with API Ghibli
 - Css / flexbox / animation
 
 
 ## Backlog
-Presentation by one ( one or all) with more details.
+Presentation by film ( one or all) with more details.
 
 ## Data structure
 Classes and methods definition.
@@ -84,7 +84,7 @@ Classes and methods definition.
 Definition of the different states and their transition (transition functions)
 
 - Home
-- Films animation
+- Films
 - Faq
 - Signup
 - Login
@@ -93,13 +93,13 @@ Definition of the different states and their transition (transition functions)
 ## Task
 Task definition in order of priority
 - index.html 
-- Films animation.html
+- Films.html
 - Faq.html
 - Signup.html
 - Login.html
 
 - main.js 
-- Films animation.js
+- Films.js
 - Faq.js
 - Signup.js
 - Login.js
