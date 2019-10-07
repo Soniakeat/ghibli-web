@@ -1,5 +1,5 @@
 # Project's name
-Studio Ghibli
+The World of Studio Ghibli
 ## Description
 Brief description of the project
 Presentation of the Ghibli animation films.
@@ -111,6 +111,7 @@ Task definition in order of priority
 
 ### Trello
 [Link url](https://trello.com)
+https://trello.com/b/Vj2n5akm/studio-ghibli-web
 
 
 ### Git

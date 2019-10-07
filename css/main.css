@@ -1,8 +1,61 @@
+
+body {
+	margin: 0;
+}
+
+/*navbar*/
 #logoTotoro {
-        max-width: 5%;
-        max-height:auto;
+		width: 4%;
+		height: auto;
+        min-width: 4%;
+        min-height:auto;
     }
 
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	background: #C0C0C0;
+	padding: 1% 1%;
+}
+
+.links {
+	display: flex;
+	justify-content: flex-end;
+	color: white;
+	padding: 1% 10%;
+	list-style: none;
+		
+}
+ .links li {
+ 	margin-left: 2em;
+}
+
+ .links li a {
+ 	text-decoration: none;
+}
+
+.links li a, a:visited {
+     color: white;
+}
+.links li a:hover {
+	color: purple;
+}
+.links li a:active {
+	color: purple;
+}
+
+/*title*/
+
+#title{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Calligraffitti', cursive;
+    margin: 0%;
+
+}
+
+header{
+    background-color: #C0C0C0;
+}
 
 
 
