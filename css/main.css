@@ -1,6 +1,8 @@
 
 body {
 	margin: 0;
+	background-color: #C0C0C0;
+	height: 80%;
 }
 
 /*navbar*/
@@ -48,15 +50,17 @@ body {
 
 #title{
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Calligraffitti', cursive;
-    margin: 0%;
+	font-family: 'Calligraffitti', cursive;
+	margin: 0%;
+	margin-bottom: 20px;
+	text-align: center;
 
 }
 
 header{
     background-color: #C0C0C0;
+    height: 150px;
 }
-
 
 
 
