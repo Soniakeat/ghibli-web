@@ -1,22 +1,21 @@
 
 body {
 	margin: 0;
-	background-color: #C0C0C0;
+	background-color: #34495E;
 	height: 80%;
 }
 
 /*navbar*/
 #logoTotoro {
-		width: 4%;
+		width: 6%;
 		height: auto;
-        min-width: 4%;
+        min-width: 6%;
         min-height:auto;
     }
 
 .navbar {
 	display: flex;
 	justify-content: space-between;
-	background: #C0C0C0;
 	padding: 1% 1%;
 }
 
@@ -26,7 +25,6 @@ body {
 	color: white;
 	padding: 1% 10%;
 	list-style: none;
-		
 }
  .links li {
  	margin-left: 2em;
@@ -51,16 +49,16 @@ body {
 #title{
     font-family: 'Open Sans', sans-serif;
 	font-family: 'Calligraffitti', cursive;
-	margin: 0%;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	text-align: center;
 
 }
 
 header{
-    background-color: #C0C0C0;
-    height: 150px;
+    background-color: #34495E;
+	height: 150px;
 }
+
 
 
 
