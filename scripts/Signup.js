@@ -3,30 +3,24 @@
 class Signup {
   constructor() {
     this.nameInput = document.querySelector('#name');
-    this.pokemonInput = document.querySelector('#pokemon');
-    this.typeInput = document.querySelector('#type');
     this.emailInput = document.querySelector('#email');
-    this.cityInput = document.querySelector('#city');
-    this.phoneInput = document.querySelector('#phone');
     this.passwordInput = document.querySelector('#password');
     this.repeatPasswordInput = document.querySelector('#repeat-password');
     this.buttonInput = document.querySelector('#signup-button');
     this.errorsWrapper = document.querySelector('.errors-container');
+
   }
+
 
   saveData = (event) => {
     event.preventDefault()
     //recoger todos los valores de los inputs:
     const name = this.nameInput.value;
-    const pokemon = this.pokemonInput.value;
-    const type = this.typeInput.value;
     const email = this.emailInput.value;
-    const city = this.cityInput.value;
-    const phone = this.phoneInput.value;
     const password = this.passwordInput.value;
 
     //Instancia de "User" nueva
-    const newUser = new User(name, pokemon, type, city, phone, email, password);
+    const newUser = new User(name, email, password);
 
     //almacenar el usuario
     //localStorage.setItem('users', 'hola');
@@ -49,11 +43,7 @@ class Signup {
 
     //vaciar formulario
     this.nameInput.value = '';
-    this.pokemonInput.value = '';
-    this.typeInput.value = '';
     this.emailInput.value = '';
-    this.cityInput.value = '';
-    this.phoneInput.value = '';
     this.passwordInput.value = '';
     this.repeatPasswordInput.value = '';
 
@@ -141,6 +131,23 @@ class Signup {
       this.errorsWrapper.appendChild(error);
     }
   }
+
+/*   saveToLocalStorage = () => {
+    let person = {
+      name: this.nameInput ,
+      email: this.emailInput,
+      this.passwordInput = document.querySelector('#password');
+      location: "Lagos",
+    }
+    window.localStorage.setItem('user', JSON.stringify(person));
+    console.log(person);
+  } */
+
 }
+
+
 const signup = new Signup();
+const validator = new Validator();
 window.addEventListener('load', signup.handleInputsValues);
+
+console.log(signup);

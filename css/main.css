@@ -1,11 +1,195 @@
+/* --- RESET --- */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+:root {
+    --text-color: #1A1A1A;
+    --red-color: #E3350D;
+    --red-color: #ff6541;
+    --white-color: #FFF;
+}*/
 
-body {
-	margin: 0;
-	background-color: #34495E;
+body{
+  margin: 0;
 	height: 80%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #34495E;
 }
 
-/*navbar*/
+
+main{
+    padding: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover{
+    color: var(--red-color);
+}
+
+h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: var(--text-color);
+    font-size: 30px;
+    border-bottom: 3px solid var(--red-color);
+    display: inline;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+h3 {
+    color: var(--red-color);
+    font-size: 26px;
+}
+
+h4{
+    font-size: 22px;
+}
+
+input {
+    margin: 10px;
+    height: 40px;
+    border: none;
+    border-bottom: solid 2px var(--red-color);
+    text-align: center;
+}
+
+input:focus{
+    border-bottom: solid 2px var(--text-color);
+    outline-color: #ff6541;
+}
+
+button, .button{
+    height: 40px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    box-shadow: 3px 3px 0px var(--red-color);
+    
+}
+
+button:hover, .button.hover{
+    background-color:#4e4e4e;
+}
+
+button:disabled, .button:disabled{
+    background-color: grey;
+}
+
+
+
+
+
+/* --- NAV --- 
+nav{
+    position: fixed;
+    background-color: var(--white-color);
+    color: var(--text-color);
+    width:100%;
+    height: 85px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .navbar-brand{
+    max-width: 160px;
+    padding-left: 20px;
+    float: left;
+}
+
+.nav-container{
+    height:85px;
+    margin-top: 12px;
+}
+
+.nav-container div{
+    display: none;
+}
+
+.nav-menu{
+    padding-right: 10px;
+    float: right;
+}
+
+.nav-menu > li {
+    list-style: none;
+    margin: 0 10px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.nav-menu > li > .selected{
+    color: var(--red-color);
+}
+
+@media (max-width: 768px){
+    nav{
+        display: block;
+    }
+
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        padding-right: 10px;
+    }
+
+    .nav-container a{
+        padding-bottom: 10px;
+    }
+
+    .nav-container div{
+        display: block;
+    }
+
+    .nav-menu{
+        background-color:#fff;
+        padding: 20px;
+        border-top: 1px solid #e2e2e2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    
+    .nav-menu > li{
+        padding: 5px;
+    }
+
+    .hide-menu{
+        display: none;
+    }
+}*/
+
+
+
+
+
+/*NAVBAR*/
 #logoTotoro {
 		width: 6%;
 		height: auto;
@@ -23,7 +207,7 @@ body {
 	display: flex;
 	justify-content: flex-end;
 	color: white;
-	padding: 1% 10%;
+	padding: 1% 1%;
 	list-style: none;
 }
  .links li {
@@ -44,8 +228,8 @@ body {
 	color: purple;
 }
 
-/*title*/
 
+/*TITLE*/
 #title{
     font-family: 'Open Sans', sans-serif;
 	font-family: 'Calligraffitti', cursive;
@@ -62,15 +246,107 @@ header{
 
 
 
+/* LOGIN PAGE*/
+input {
+    border: solid 1px black;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  
+  .btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+  }
+  
+  .btn-delete {
+    color: #fff;
+    background-color: #cf000f;
+    border-color: #cf000f;
+  }
+  
+  .quantity {
+    margin: 0 5px;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px;
+  }
+  .productName {
+    align-items: left;
+    width: 450px;
+  }
+  
+  .price {
+    align-items: left;
+    width: 300px;
+  }
+  .label {
+    align-items: left;
+    width: 300px;
+  }
+  
+  .totaly {
+    align-items: left;
+    width: 150px;
+  }
+  
+  body h1 {
+    text-align: center;
+  }
+  #sumAll {
+    margin-left: 46.5%;
+  }
+  
+  .insertNewProducts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #products {
+    margin: 10px 15px;
+    border: 1px solid gray;
+  }
+  
+  .login_love{
+    height: auto;
+    width: 20%;   
+  }
+
+.login_love_position{
+    display: flex;
+
+}
 
 
 
 
 
-
-
-
-/* SIGNUP PAGE & LOGIN PAGE */
+/* SIGNUP PAGE & LOGIN PAGE (MODELO) */
 
 .signup, .login{
     margin-top: 85px;
@@ -111,5 +387,85 @@ header{
     background-color: rgb(47, 164, 93);
     box-shadow: 0 0 10px #dbf1c1;
 }
+
+/* section FAQ's*/
+
+.faqs{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faq-heading{
+  width: 100%;
+  padding: 15px;
+  margin-top:20px;
+  background-color: var(--red-color);
+  color: #fff;
+  border: 1px solid #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-heading > h4 {
+  width: 85%; /*para que no corte a la flecha*/
+}
+
+.faq-heading > .faq-arrow{
+  width: 10px;
+  height: 10px;
+  box-sizing: border-box;
+  transform: rotate(45deg);
+  transition: all ease 0.6s;   
+}
+
+.faq-heading > .faq-arrow::before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-width: 0 2px 2px 0;
+  border-style: solid;
+  border-color: #fff;
+  transition: .2s ease;
+  display: block;
+  transform-origin: 100% 0;
+}
+
+.faqs > .faq > .faq-main{
+  border: 1px solid #e2e2e2;
+}
+
+
+
+/* for animate faqs dropdown */
+.faqs > .faq > .faq-main{ /*juntar con la propiedad de arriba */
+  padding: 0 20px;
+  height: 0;
+  opacity: 0;
+  transition: all ease 0.8s;
+  overflow: hidden; /* con esta propiedad no molesta para clicar el resto de faqs */
+}
+
+.faqs > .toggle-faq-on > .faq-main{
+  padding: 20px;
+  height: auto;
+  opacity:6;
+  transition: all ease 0.8s;
+}
+
+.faqs > .toggle-faq > .faq-main > .faq-text{
+  height: 0;
+}
+
+.faqs > .toggle-faq-on > .faq-main > .faq-text{
+  height: auto;
+}
+
+.faqs > .toggle-faq-on > .faq-heading > .faq-arrow {
+  transform: rotate(225deg);
+  transition: all ease 0.6s;
+}
+
 
 

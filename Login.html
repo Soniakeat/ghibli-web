@@ -32,25 +32,43 @@
                     </div>
                 </nav>
             </header>
+
             <main>
-                <!--LOGIN-->
-                <form class="container-fluid col-md-5 mb-3">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <!--LOGIN-->
+                <section class="login"> 
+                    <h2>LOGIN</h2>
+                    <div class="form-wrapper"> 
+                        <form class="container-fluid col-md-5 mb-3 login login-form" action="">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email"/>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control button" id="password" placeholder="******">
+                            </div>
+                            <button type="submit" class="btn btn-light" id="login-button" onclick="login(event)">Submit</button>
+                        </form>
+                            <div class="errors-container">
+                            </div>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-light">Submit</button>
-                </form>
-            </main>
+                </section>
             
+                    <div class="login_love_position">
+                        <img class="login_love" src="images/images/I_love_studio_Ghibli.jpg" alt="I love studio Ghibli">
+                    </div>
+            </main>
+            <!-- FOOTER  --> 
+            <footer class="page-footer font-small blue">
+                    <!-- Copyright -->
+                    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                        <a href="https://mdbootstrap.com/education/bootstrap/"> MyFirstIronhackProject</a>
+                    </div>
+            </footer>
+
+
+            <script src="scripts/main.js"></script>
+            <script src="scripts/login.js"></script>
         </body>
 </html>

@@ -3,40 +3,96 @@
 
     <head>
             <meta charset="UTF-8">
+            <title>STUDIO GHIBLI - Help</title>
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
             <link rel="shortcut icon" type="image/png" href="/images/favicon_io/favicon-16x16.png"/>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
             <link rel="stylesheet" type="text/css" href="/css/main.css">
             <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Open+Sans:300,400,700&display=swap" rel="stylesheet">
-            <link rel="stylesheet" href="css/burger-menu-icon.css">
-            <title>THE WORLD OF STUDIO GHIBLI</title>
+            <link rel="stylesheet" href="css/burger-menu-icon.css">           
         </head>
     
         <body>
             <header class="container-fluid"> 
-        <!-- NAVBAR  --> 
-                <nav class="container-fluid" >
-                    <div class="navbar">
+            <!-- NAVBAR  --> 
+                <nav class="container-fluid " >
+                    <div class="navbar nav-container">
                         <!-- logo  --> 
                         <img id="logoTotoro" src="/images/Logos/LogoTotoro-280x280.png" alt="Logo Totoro">
-                        <!-- navbar  --> 
+                        <!-- links  --> 
+               
                         <div>
-                            <ul class="links">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="films.html">Films</a></li>
-                                <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="Signup.html">Signup</a></li>
-                                <li><a href="Login.html">Login</a></li>
-                            </ul>
+                        <ul class="links nav-menu hide-menu" id="nav-menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="films.html">Films</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="Signup.html">Signup</a></li>
+                            <li><a href="Login.html">Login</a></li>
+                        </ul>
                         </div>
                     </div>
                 </nav>
-            </header>
 
+                <section class="header-section header-faqs">
+                        <div class="header-bg"></div>
+                        <div class="header-text">
+                          <h1>FAQ</h1>
+                          <p>General informations<br></p>
+                        </div>
+                      </section>
+            </header>
+            <main>
+                    <section class="faqs">
+                            <article class="faq">
+                              <header class="faq-heading">
+                                <h4>Fan page</h4>
+                                <div class="faq-arrow"></div>
+                              </header>
+                              <main class="faq-main">
+                                <p class="faq-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, deserunt soluta totam
+                                  quidem asperiores officiis, quod possimus nam iusto unde eaque commodi quam accusamus! Vel itaque voluptatum
+                                  error sed maiores?</p>
+                              </main>
+                            </article>
+                            <article class="faq">
+                              <header class="faq-heading">
+                                <h4>¿Puedo duchar a un pokémon tipo fuego?</h4>
+                                <div class="faq-arrow"></div>
+                              </header>
+                              <main class="faq-main">
+                                <p class="faq-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, deserunt soluta totam
+                                  quidem asperiores officiis, quod possimus nam iusto unde eaque commodi quam accusamus! Vel itaque voluptatum
+                                  error sed maiores?</p>
+                              </main>
+                            </article>
+                            <article class="faq">
+                              <header class="faq-heading">
+                                <h4>Mi Dragonite quiere comerse a mi Bellsprout, ¿qué puedo hacer?</h4>
+                                <div class="faq-arrow"></div>
+                              </header>
+                              <main class="faq-main">
+                                <p class="faq-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, deserunt soluta totam
+                                  quidem asperiores officiis, quod possimus nam iusto unde eaque commodi quam accusamus! Vel itaque voluptatum
+                                  error sed maiores?</p>
+                              </main>
+                            </article>
+                          </section>
+            </main>
+
+            <!-- FOOTER  --> 
+            <footer class="page-footer font-small blue">
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                  <a href="https://mdbootstrap.com/education/bootstrap/"> MyFirstIronhackProject</a>
+                </div>
+            </footer>
+
+        
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
+        <script src="scripts/faq.js"></script>
+        <script src="scripts/main.js"></script>
         </body>
 </html>

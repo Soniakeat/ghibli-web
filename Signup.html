@@ -39,66 +39,57 @@
             <main>
             <!-- SIGNUP FORM  -->
             <section class="signup " >
-                    <h2 id="title">Signup</h2>
+            <h2 id="title">Signup</h2>
             <div class="form-wrapper ">
                 <form class="signup-form " action="" >
                     <div class="form-col" >
+
+                        <!--NAME-->
                         <div class="col-md-8 mb-3 container-fluid">
-                            <label for="validationServer01">Name</label>
-                            <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Mark" required>
-                            <div class="valid-feedback">Looks good!</div>
+                            <label>Name</label>
+                            <input type="text" class="form-control is-valid" id="name" placeholder="Name">
                         </div>
-                        <div class="col-md-8 mb-3 container-fluid ">
-                            <label for="validationServer02">Last name</label>
-                            <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Otto" required>
-                            <div class="valid-feedback">Looks good!</div>
-                        </div>
+                        
+                        <!--EMAIL-->
                         <div class="col-md-8 mb-3 container-fluid">
-                            <label for="validationServerMail">Email</label>
-                            <input type="email" class="form-control is-valid">
-                            <div class="input-group">
-                                <div class="input-group-prepend"></div>
-                                <input type="text" class="form-control is-invalid" id="validationServeremail" placeholder="email" aria-describedby="inputGroupPrepend3" required>
-                                <div class="invalid-feedback">Please choose a valid email.</div>
-                            </div>
+                            <label>Email</label>
+                            <input type="text" id="email" class="form-control is-valid" placeholder="Email">                           
                         </div>
+
+                        <!--PASSWORD-->
+                        <div class="col-md-8 mb-3 container-fluid">
+                            <label>Password</label>
+                            <input type="password" class="form-control is-valid" id="password" placeholder="*****">
+                        </div>
+
+                        <!--REPEAT PASSWORD-->
+                        <div class="col-md-8 mb-3 container-fluid">
+                                <label>Repeat Password</label>
+                                <input type="password" class="form-control is-valid" id="repeat-password" placeholder="*****">
+                        </div>
+
+                        <!--SIGNUP BUTTON-->
+                        <button class="btn btn-light col-md-8 mb-3 container-fluid button" type="submit" id="signup-button" disabled
+                        onclick="signup.saveData(event)">Signup</button>
                     </div>
-                    <div class="form-col">
-                      <div class="col-md-8 mb-3 container-fluid ">
-                        <label for="validationServer03">City</label>
-                        <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
-                        <div class="invalid-feedback">Please provide a valid city.</div>
-                      </div>
-                      <div class="col-md-8 mb-3 container-fluid ">
-                        <label for="validationServer04">State</label>
-                        <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
-                        <div class="invalid-feedback">Please provide a valid state.</div>
-                      </div>
-                      <div class="col-md-8 mb-3 container-fluid ">
-                        <label for="validationServer05">Zip</label>
-                        <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
-                        <div class="invalid-feedback">Please provide a valid zip.</div>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="form-check container-fluid">
-                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
-                        <label class="form-check-label" for="invalidCheck3">Agree to terms and conditions</label>
-                        <div class="invalid-feedback">You must agree before submitting.</div>
-                      </div>
-                    </div>
-                    <button class="btn btn-light col-md-8 mb-3 container-fluid button" type="submit" id="signup-button" disabled
-                    onclick="signup.saveData(event)">Signup</button>
                 </form>
-                    <div class="errors-container">
-                    </div>
             </div>
-                </section>
+                    <div class="errors-container"></div>
+            </section>
 
             </main>
+
+            <!-- FOOTER  --> 
+            <footer class="page-footer font-small blue">
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                  <a href="https://mdbootstrap.com/education/bootstrap/"> MyFirstIronhackProject</a>
+                </div>
+            </footer>
+
                 <script src="scripts/Users.js"></script>
-                <script src="scripts/Signup.js"></script>
                 <script src="scripts/Validator.js"></script>
+                <script src="scripts/Signup.js"></script>
                 <script src="scripts/main.js"></script>
                 
                
