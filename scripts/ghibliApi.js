@@ -9,7 +9,7 @@ async function getUsers() {
         card.setAttribute("class", "card")
         card.innerHTML = `<img src="images/images/le-tombeau-des-lucioles.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
-            <h5 class="card-title"> ${data[i].title}</h5>
+            <h5 class="card-title font-weight-bold"> ${data[i].title}</h5>
             <p class="card-text">${data[i].description}</p>
         </div>
         <ul class="list-group list-group-flush">
