@@ -15,58 +15,61 @@
 </head>
 
 <body>
-    <header class="container-fluid"> 
-<!-- NAVBAR  --> 
-        <nav class="container-fluid" >
-            <div class="navbar">
-                <!-- logo  --> 
-                <img id="logoTotoro" src="./images/Logos/LogoTotoro-280x280.png" alt="Logo Totoro">
-                <!-- navbar  --> 
-                <div>
-                    <ul class="links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="films.html">Films</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="Signup.html">Signup</a></li>
-                        <li><a href="Login.html">Login</a></li>
-                    </ul>
-                </div>
+       
+      <!-- NAVBAR -->
+    <header>
+            <nav>
+            <div class="Navbar" >
+            <div class="Navbar_Logo">
+            <!-- logo --> 
+            
+            <img id="logoTotoro" src="images/Logos/LogoTotoro-280x280.png" alt="Logo Totoro">
             </div>
-        </nav>
-    </header>
+            <!-- navbar --> 
+            <div class='Navbar_Link Navbar-small'>
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <ul class="Navbar_Items Navbar_Items-right">
+            <!--<div class ="Navbar__Link">-->
+            <li class="Navbar_Link"><a href="index.html">Home</a></li>
+            <li class="Navbar_Link"><a href="films.html">Films</a></li>
+            <li class="Navbar_Link"><a href="faq.html">FAQ</a></li>
+            <li class="Navbar_Link"><a href="Signup.html">Signup</a></li>
+            <li class="Navbar_Link"><a href="Login.html">Login</a></li>
+            </ul>
+            </div>
+            </nav>
+            
+            </header>
 
 
-<!-- FILMS  --> 
+<!-- FILMS  -->  
+<div id="main">   
 <section> 
-<div class="container-fluid paddingcard"> 
-<div class="row">
+    <div class="container-fluid paddingcard"> 
 
-    <div id="card-deck" class="card-deck">
-            
+        <div class="row">
+            <div id="card-deck" class="card-deck"></div>
+        </div>
 
-</div>
-</div>
-<div class="row">
-    <div class="card-deck">
-            
-            
+        <div class="row">
+            <div class="card-deck"></div>
         </div>
     </div>
-</div>
 </section>
 
 <!-- FOOTER  --> 
 <footer class="page-footer font-small blue">
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2019 Copyright:
-        <a href="https://mdbootstrap.com/education/bootstrap/"> MyFirstIronhackProject</a>
+        <div class="footer-copyright text-center py-3">© 2019 Copyright: Ghibli App</div>
         </div>
-</footer>
+    </footer>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 <script src="scripts/main.js"></script>
 <script src="scripts/ghibliApi.js"></script>
 

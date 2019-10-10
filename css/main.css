@@ -6,17 +6,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*
+
 :root {
-    --text-color: #1A1A1A;
-    --red-color: #E3350D;
-    --red-color: #ff6541;
+    --text-color: rgb(144, 212, 138);
     --white-color: #FFF;
-}*/
+}
 
 body{
-  margin: 0;
-	height: 80%;
+    margin: 0;
+	  height: 80%;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     line-height: normal;
@@ -24,8 +22,8 @@ body{
 }
 
 
-main{
-    padding: 30px;
+.margin-main{
+  margin-top: 100px
 }
 
 .container{
@@ -35,7 +33,8 @@ main{
 
 a{
     text-decoration: none;
-    color: var(--text-color);
+    color: white;
+
 }
 
 a:hover{
@@ -45,15 +44,18 @@ a:hover{
 h1{
     font-size: 70px;
     margin-bottom: 20px;
+    color: whitesmoke;
 }
 
 h2{
-    color: var(--text-color);
     font-size: 30px;
-    border-bottom: 3px solid var(--red-color);
     display: inline;
     text-transform: uppercase;
     letter-spacing: 6px;
+
+    font-family: 'Calligraffitti', cursive;
+    text-align: center;
+    color: whitesmoke;
 }
 
 h3 {
@@ -75,15 +77,13 @@ input {
 
 input:focus{
     border-bottom: solid 2px var(--text-color);
-    outline-color: #ff6541;
+    outline-color: #cde661;
 }
 
 button, .button{
     height: 40px;
     margin: 10px;
-    background-color: black;
     color: white;
-    border: none;
     box-shadow: 3px 3px 0px var(--red-color);
     
 }
@@ -99,257 +99,50 @@ button:disabled, .button:disabled{
 
 
 
+////////LOGO TOTORO////////
 
-/* --- NAV --- 
-nav{
-    position: fixed;
-    background-color: var(--white-color);
-    color: var(--text-color);
-    width:100%;
-    height: 85px;
-    z-index: 999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#logo-totoro {
+  width: 10%;
+  height: 10px;
+  min-width: 6%;
+  min-height: auto;
 }
 
-nav .navbar-brand{
-    max-width: 160px;
-    padding-left: 20px;
-    float: left;
-}
-
-.nav-container{
-    height:85px;
-    margin-top: 12px;
-}
-
-.nav-container div{
-    display: none;
-}
-
-.nav-menu{
-    padding-right: 10px;
-    float: right;
-}
-
-.nav-menu > li {
-    list-style: none;
-    margin: 0 10px;
-    font-size: 20px;
-    display: inline-block;
-}
-
-.nav-menu > li > .selected{
-    color: var(--red-color);
-}
-
-@media (max-width: 768px){
-    nav{
-        display: block;
-    }
-
-    .nav-container{
-        display: flex;
-        justify-content: space-between;
-        height: auto;
-        padding-right: 10px;
-    }
-
-    .nav-container a{
-        padding-bottom: 10px;
-    }
-
-    .nav-container div{
-        display: block;
-    }
-
-    .nav-menu{
-        background-color:#fff;
-        padding: 20px;
-        border-top: 1px solid #e2e2e2;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-
-    
-    .nav-menu > li{
-        padding: 5px;
-    }
-
-    .hide-menu{
-        display: none;
-    }
-}*/
-
-
-
-
-
-/*NAVBAR*/
-#logoTotoro {
-		width: 6%;
+.logo-totoro {
+		width: 2%;
 		height: auto;
-        min-width: 6%;
-        min-height:auto;
+    min-width: 6%;
+    min-height:auto;
     }
 
-.navbar {
-	display: flex;
-	justify-content: space-between;
-	padding: 1% 1%;
-}
-
-.links {
-	display: flex;
-	justify-content: flex-end;
-	color: white;
-	padding: 1% 1%;
-	list-style: none;
-}
- .links li {
- 	margin-left: 2em;
-}
-
- .links li a {
- 	text-decoration: none;
-}
-
-.links li a, a:visited {
-     color: white;
-}
-.links li a:hover {
-	color: purple;
-}
-.links li a:active {
-	color: purple;
-}
-
-
-/*TITLE*/
+/*//////////////TITLE/////////////*/
 #title{
-    font-family: 'Open Sans', sans-serif;
 	font-family: 'Calligraffitti', cursive;
-	margin-bottom: 30px;
-	text-align: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  text-align: center;
+  color: whitesmoke;
 }
 
 header{
     background-color: #34495E;
-	height: 150px;
+    height: 100px;
+    padding: 20px;
 }
 
-/* SIGNUP PAGE */
 
-
-
-/* LOGIN PAGE*/
-input {
-    border: solid 1px black;
-  }
-  
-  .btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-  }
-  
-  .btn-success {
-    color: #fff;
-    background-color: #5cb85c;
-    border-color: #4cae4c;
-  }
-  
-  .btn-delete {
-    color: #fff;
-    background-color: #cf000f;
-    border-color: #cf000f;
-  }
-  
-  .quantity {
-    margin: 0 5px;
-  }
-  
-  .wrapper {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 15px;
-  }
-  .productName {
-    align-items: left;
-    width: 450px;
-  }
-  
-  .price {
-    align-items: left;
-    width: 300px;
-  }
-  .label {
-    align-items: left;
-    width: 300px;
-  }
-  
-  .totaly {
-    align-items: left;
-    width: 150px;
-  }
-  
-  body h1 {
-    text-align: center;
-  }
-  #sumAll {
-    margin-left: 46.5%;
-  }
-  
-  .insertNewProducts {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-  
-  #products {
-    margin: 10px 15px;
-    border: 1px solid gray;
-  }
+///////////////////////////////////////////////
   
   .login_love{
-    height: auto;
-    width: 20%;   
+    height: 20%;
+    width: auto;   
+    padding: 20px;
   }
-
-.login_love_position{
-    display: flex;
-
-}
-
-
-
 
 
 /* SIGNUP PAGE & LOGIN PAGE (MODELO) */
 
 .signup, .login{
-    margin-top: 85px;
     text-align: center;
 }
 
@@ -375,7 +168,6 @@ input {
 
 
 .errors-container p{
-    background-color: var(--red-color);
     padding: 20px;
     margin: 10px 0;
     color: white;
@@ -383,13 +175,28 @@ input {
     box-shadow: 0 0 10px #feb1b1;
 }
 
-.errors-container p.correct-message {
-    background-color: rgb(47, 164, 93);
-    box-shadow: 0 0 10px #dbf1c1;
+.errors-container p.correct-message {  
+    box-shadow: 0 0 10px #a3e459;
 }
 
-/* section FAQ's*/
 
+
+/*/////////FAQS PAGE/////////////// */
+
+
+.header-faqs{
+  background: url(../images/Quagsire2_original_original.jpg) no-repeat center top /cover;
+  height:6vh;
+}
+
+.header-faqs h1{
+  font-size:35px;
+}
+
+
+
+
+/* //////////FAQ//////////////*/
 .faqs{
   width: 100%;
   max-width: 900px;
@@ -437,14 +244,15 @@ input {
 }
 
 
+/*///////////faqs dropdown/////////// */
 
-/* for animate faqs dropdown */
-.faqs > .faq > .faq-main{ /*juntar con la propiedad de arriba */
+
+.faqs > .faq > .faq-main{ 
   padding: 0 20px;
   height: 0;
   opacity: 0;
   transition: all ease 0.8s;
-  overflow: hidden; /* con esta propiedad no molesta para clicar el resto de faqs */
+  overflow: hidden; 
 }
 
 .faqs > .toggle-faq-on > .faq-main{
@@ -466,6 +274,159 @@ input {
   transform: rotate(225deg);
   transition: all ease 0.6s;
 }
+
+
+/*NAVBAR*/
+
+#logoTotoro {
+  width: 15%;
+  height: auto;
+  min-width: auto;
+  min-height:auto;
+}
+
+.Navbar {
+  /*background-color: #C0C0C0;*/
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  font-family: sans-serif;
+  color: white;
+  margin: 0, 16px;
+}
+
+
+.Navbar_Link {
+  padding: 0.5em;
+}
+.Navbar ul {
+  list-style-type: none;
+}
+
+.Navbar_Items {
+  display: flex;
+  margin-left: 16px;
+  list-style-type: none;
+}
+
+.Navbar_Items-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 3em;
+}
+
+.Navbar_Items-right ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Navbar-small {
+  display: none;
+}
+
+ .Navbar_Link a {
+  text-decoration: none;
+  /*display: block;*/
+  padding 10px;
+}
+
+.Navbar_Link a, a:visited {
+     color: white;
+}
+
+.Navbar_Link a:hover {
+  
+  color: purple;
+}
+.Navbar_Link a:active {
+  /*display: block;*/
+  padding 10px;
+  color: purple;
+}
+
+@media only screen and (max-width: 768px) {
+#logoTotoro {
+  width: 5%;
+  height: auto;
+  min-width: auto;
+  min-height:auto;
+}
+  .Navbar {
+    margin-bottom: 5px;
+    background-color: rgb(104, 105, 119);
+  }
+
+  .Navbar_Items,
+  .Navbar {
+    flex-direction: column;
+  }
+    
+.Navbar_Items {
+    display: none;
+    cursor: pointer;
+  }
+    
+.Navbar_Items-right {
+    margin-top: 2vh;
+    justify-content: flex-end;
+    margin-right: 0.1em;
+  }
+    
+.Navbar_ToggleShow {
+    display: flex;
+    align-self: flex-end;
+
+  }
+    
+.Navbar-small {
+    align-self: flex-end;
+    align-items: flex-start;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+    margin-bottom: 10px;
+   }
+
+.Navbar_Link a {
+  padding: 0;
+  align-self: flex-end;
+}
+
+.Navbar-small span {
+  background: black;
+  width: 1.5em;
+  height: 3px;
+  display: block;
+  margin-bottom: 3px;
+  align-self: flex-end;
+} 
+
+main {
+  margin-top: 43px;
+}
+
+
+
+/////////FOOTER////////////////
+
+
+#main{ 
+  max-width: 1280px; 
+  min-height: 100%; 
+  margin: 0 auto;
+  position: relative;
+  padding: 30px;
+  }
+  
+   
+  footer{
+  position:absolute; 
+  bottom:0;
+  width:100%;
+  padding-top:50px;
+  height:50px;
+  }
 
 
 

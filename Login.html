@@ -13,36 +13,46 @@
         </head>
     
         <body>
-            <header class="container-fluid"> 
-        <!-- NAVBAR  --> 
-                <nav class="container-fluid" >
-                    <div class="navbar">
-                        <!-- logo  --> 
-                        <img id="logoTotoro" src="./images/Logos/LogoTotoro-280x280.png" alt="Logo Totoro">
-                        <!-- navbar  --> 
-                        <div>
-                            <ul class="links">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="films.html">Films</a></li>
-                                <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="Signup.html">Signup</a></li>
-                                <li><a href="Login.html">Login</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+        <!-- NAVBAR -->
+        <header>
+            <nav>
+            <div class="Navbar" >
+            <div class="Navbar_Logo">
+            <!-- logo --> 
+            
+            <img id="logoTotoro" src="images/Logos/LogoTotoro-280x280.png" alt="Logo Totoro">
+            </div>
+            <!-- navbar --> 
+            <div class='Navbar_Link Navbar-small'>
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <ul class="Navbar_Items Navbar_Items-right">
+            <!--<div class ="Navbar__Link">-->
+            <li class="Navbar_Link"><a href="index.html">Home</a></li>
+            <li class="Navbar_Link"><a href="films.html">Films</a></li>
+            <li class="Navbar_Link"><a href="faq.html">FAQ</a></li>
+            <li class="Navbar_Link"><a href="Signup.html">Signup</a></li>
+            <li class="Navbar_Link"><a href="Login.html">Login</a></li>
+            </ul>
+            </div>
+            </nav>
+            
             </header>
-
-            <main>
-        <!--LOGIN-->
+                    <!--LOGIN-->           
+           <main id="main">                  
                 <section class="login"> 
-                    <h2>LOGIN</h2>
+                   <h2>LOGIN</h2>
                     <div class="form-wrapper"> 
+                            <div class="login_love_position">
+                                    <img class="login_love container-fluid" src="images/images/I_love_studio_Ghibli.jpg" alt="I love studio Ghibli">
+                            </div>
+                        
                         <form class="container-fluid col-md-5 mb-3 login login-form" action="">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email address</label>
                                 <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email"/>
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputPassword1">Password</label>
@@ -53,18 +63,13 @@
                             <div class="errors-container">
                             </div>
                     </div>
-                </section>
-            
-                    <div class="login_love_position">
-                        <img class="login_love" src="images/images/I_love_studio_Ghibli.jpg" alt="I love studio Ghibli">
-                    </div>
+                </section>                   
             </main>
-            <!-- FOOTER  --> 
-            <footer class="page-footer font-small blue">
-                    <!-- Copyright -->
-                    <div class="footer-copyright text-center py-3">© 2019 Copyright:
-                        <a href="https://mdbootstrap.com/education/bootstrap/"> MyFirstIronhackProject</a>
-                    </div>
+
+           <!-- FOOTER  --> 
+          <footer class="page-footer font-small blue">
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2019 Copyright: Ghibli App</div>
             </footer>
 
 
