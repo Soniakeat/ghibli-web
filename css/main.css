@@ -134,6 +134,7 @@ header{
   
   .login_love{
     padding: 20px;
+    max-width: 300px;
   }
 
 
@@ -159,8 +160,8 @@ header{
 }
 
 .errors-container{
-    width: 100%;
-    max-width: 800px;
+   /*  width: 100%;
+    max-width: 800px; */
 }
 
 
@@ -353,20 +354,7 @@ header{
 }
 }
 
-/* Switch to hamburger menu on tablets */
 
-/* @media only screen and ( max-width:1024px) {
-	#et_mobile_nav_menu {
-		display: block;
-	}
-	#top-menu-nav {
-		display: none;
-	}
-	.et_header_style_left .mobile_menu_bar {
-		padding-bottom: 50px;
-	}
-}
- */
 
 
 
@@ -458,3 +446,23 @@ main {
   transform: scale(1.1);
 }
 
+.submit-btn{
+  width: 100%;
+}
+
+
+
+/* Switch to hamburger menu on tablets */
+
+/* @media only screen and ( max-width:1024px) {
+	#et_mobile_nav_menu {
+		display: block;
+	}
+	#top-menu-nav {
+		display: none;
+	}
+	.et_header_style_left .mobile_menu_bar {
+		padding-bottom: 50px;
+	}
+}
+ */
