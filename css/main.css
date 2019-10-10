@@ -279,25 +279,29 @@ header{
 /*NAVBAR*/
 
 #logoTotoro {
-  width: 125px;
+  max-width: 90px; 
   height: auto;
   min-width: auto;
   min-height:auto;
 }
 
 .Navbar {
-  /* background-color: rgba(98, 91, 194, 0.877); */
+  /* background-color: rgba(131, 129, 163, 0.377);  */
   display: flex;
   justify-content: space-between;
   padding: 16px;
   font-family: sans-serif;
   color: white;
   margin: 0, 16px;
+
 }
 
 
 .Navbar_Link {
-  padding: 0.5em;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  height: max-content;
 }
 .Navbar ul {
   list-style-type: none;
@@ -321,6 +325,17 @@ header{
   justify-content: flex-end;
 }
 
+/* ///////VERTICAL BAR MENU/////// */
+
+.Navbar_Items-right  li {
+border-right: 1px solid #ffffff;
+}
+.Navbar_Items-right  li:last-child {
+border-right: none
+}
+
+
+
 .Navbar-small {
   display: none;
 }
@@ -332,33 +347,81 @@ header{
 }
 
 .Navbar_Link a, a:visited {
-     color: white;
+     color: rgb(253, 253, 253);
 }
 
 .Navbar_Link a:hover {
   
-  color: purple;
+  color: rgb(146, 169, 204);
 }
 .Navbar_Link a:active {
   /*display: block;*/
   padding: 10px;
-  color: purple;
+  color: rgb(0, 9, 128);
 }
 
-@media only screen and (max-width: 768px) {
-#logoTotoro {
-  width: 75px;
-  height: auto;
-  min-width: auto;
-  min-height:auto;
-}
+/* //////////////////////////////// */
+
+main {
+  margin-top: 43px;
 }
 
 
+/* /////////FOOTER//////////////// */
+
+#main{ 
+  max-width: 1280px; 
+  min-height: 100%; 
+  margin: 0 auto;
+  position: relative;
+  padding: 30px;
+  }
+    
+  footer{
+  bottom:0;
+  width:100%;
+  padding-top:50px;
+  height:50px;
+  }
+
+.card{
+  min-width: 30%;
+  margin: 3% auto;
+}
+
+.card:hover{
+  transition: 1s ease;
+  transform: scale(1.1);
+}
+
+.submit-btn{
+  width: 100%;
+}
 
 
 
+/* Switch to hamburger menu on tablets */
 
+/* @media only screen and ( max-width:1024px) {
+	#et_mobile_nav_menu {
+		display: block;
+	}
+	#top-menu-nav {
+		display: none;
+	}
+	.et_header_style_left .mobile_menu_bar {
+		padding-bottom: 50px;
+	}
+}
+ */
+
+ @media only screen and (max-width: 480px) {
+  #logoTotoro {
+    width: 75px;
+    height: auto;
+    min-width: auto;
+    min-height:auto;
+  }
 
   .Navbar {
     margin-bottom: 5px;
@@ -397,7 +460,7 @@ header{
    }
 
 .Navbar_Link a {
-  padding: 0;
+  padding: ;
   align-self: flex-end;
 }
 
@@ -409,60 +472,12 @@ header{
   margin-bottom: 3px;
   align-self: flex-end;
 } 
-
-main {
-  margin-top: 43px;
-}
-
-
-
-/* /////////FOOTER//////////////// */
-
-
-#main{ 
-  max-width: 1280px; 
-  min-height: 100%; 
-  margin: 0 auto;
-  position: relative;
-  padding: 30px;
-  }
-  
-   
-  footer{
-
-  bottom:0;
-  width:100%;
-  padding-top:50px;
-  height:50px;
+.Navbar_Items-right  li {
+  border-right: none;
   }
 
-.card{
-  min-width: 30%;
-  margin: 3% auto;
+.Navbar_Items-right  li:last-child {
+border-right: none
 }
 
-.card:hover{
-  transition: 1s ease;
-  transform: scale(1.1);
 }
-
-.submit-btn{
-  width: 100%;
-}
-
-
-
-/* Switch to hamburger menu on tablets */
-
-/* @media only screen and ( max-width:1024px) {
-	#et_mobile_nav_menu {
-		display: block;
-	}
-	#top-menu-nav {
-		display: none;
-	}
-	.et_header_style_left .mobile_menu_bar {
-		padding-bottom: 50px;
-	}
-}
- */
