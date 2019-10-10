@@ -68,7 +68,7 @@ h4{
 }
 
 input {
-    margin: 10px;
+    margin: 10px;/*  !!!!!!!!!!!!!!!!!!!!!!!!!BUTTONS !!!!!!!!!!!!!!!!!!!! */
     height: 40px;
     border: none;
     border-bottom: solid 2px var(--red-color);
