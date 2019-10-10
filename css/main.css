@@ -99,10 +99,10 @@ button:disabled, .button:disabled{
 
 
 
-////////LOGO TOTORO////////
+/* ////////LOGO TOTORO//////// */
 
 #logo-totoro {
-  width: 10%;
+  width: 125px;
   height: 10px;
   min-width: 6%;
   min-height: auto;
@@ -126,16 +126,13 @@ button:disabled, .button:disabled{
 
 header{
     background-color: #34495E;
-    height: 100px;
-    padding: 20px;
+    height: auto;
 }
 
 
-///////////////////////////////////////////////
+/* /////////////////////////////////////////////// */
   
   .login_love{
-    height: 20%;
-    width: auto;   
     padding: 20px;
   }
 
@@ -268,6 +265,8 @@ header{
 
 .faqs > .toggle-faq-on > .faq-main > .faq-text{
   height: auto;
+  color: white;
+  font-weight: lighter;
 }
 
 .faqs > .toggle-faq-on > .faq-heading > .faq-arrow {
@@ -279,7 +278,7 @@ header{
 /*NAVBAR*/
 
 #logoTotoro {
-  width: 15%;
+  width: 125px;
   height: auto;
   min-width: auto;
   min-height:auto;
@@ -328,7 +327,7 @@ header{
  .Navbar_Link a {
   text-decoration: none;
   /*display: block;*/
-  padding 10px;
+  padding: 10px;
 }
 
 .Navbar_Link a, a:visited {
@@ -341,16 +340,17 @@ header{
 }
 .Navbar_Link a:active {
   /*display: block;*/
-  padding 10px;
+  padding: 10px;
   color: purple;
 }
 
 @media only screen and (max-width: 768px) {
 #logoTotoro {
-  width: 5%;
+  width: 75px;
   height: auto;
   min-width: auto;
   min-height:auto;
+}
 }
   .Navbar {
     margin-bottom: 5px;
@@ -408,7 +408,7 @@ main {
 
 
 
-/////////FOOTER////////////////
+/* /////////FOOTER//////////////// */
 
 
 #main{ 
@@ -421,12 +421,20 @@ main {
   
    
   footer{
-  position:absolute; 
+
   bottom:0;
   width:100%;
   padding-top:50px;
   height:50px;
   }
 
+.card{
+  min-width: 30%;
+  margin: 3% auto;
+}
 
+.card:hover{
+  transition: 1s ease;
+  transform: scale(1.1);
+}
 
