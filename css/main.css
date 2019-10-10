@@ -285,7 +285,7 @@ header{
 }
 
 .Navbar {
-  /*background-color: #C0C0C0;*/
+  /* background-color: rgba(98, 91, 194, 0.877); */
   display: flex;
   justify-content: space-between;
   padding: 16px;
@@ -352,9 +352,29 @@ header{
   min-height:auto;
 }
 }
+
+/* Switch to hamburger menu on tablets */
+
+/* @media only screen and ( max-width:1024px) {
+	#et_mobile_nav_menu {
+		display: block;
+	}
+	#top-menu-nav {
+		display: none;
+	}
+	.et_header_style_left .mobile_menu_bar {
+		padding-bottom: 50px;
+	}
+}
+ */
+
+
+
+
+
   .Navbar {
     margin-bottom: 5px;
-    background-color: rgb(104, 105, 119);
+    background-color: rgba(153, 156, 190, 0.233);
   }
 
   .Navbar_Items,
