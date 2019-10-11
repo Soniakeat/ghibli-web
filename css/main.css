@@ -76,10 +76,12 @@ h4{
   padding: 20px;
 }
 
-/* #signup-home{
-  
-  
-} */
+#signup-home{
+  display: inline-block;
+    padding: 20px;
+    line-height: 1.5;   
+}
+
 
 input {
     /*  !!!!!!!!!!!!!!!!!!!!!!!!!BUTTONS !!!!!!!!!!!!!!!!!!!! */
