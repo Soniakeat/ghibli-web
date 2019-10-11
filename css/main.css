@@ -74,6 +74,8 @@ h4{
   font-size: 10px;
   text-align: center;
   padding: 20px;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 #signup-home{
