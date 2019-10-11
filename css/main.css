@@ -58,6 +58,7 @@ h2{
     color: whitesmoke;
 }
 
+
 h3 {
     color: var(--red-color);
     font-size: 26px;
@@ -66,6 +67,19 @@ h3 {
 h4{
     font-size: 22px;
 }
+
+#slogan{
+  font-family: fantasy;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* #signup-home{
+  
+  
+} */
 
 input {
     /*  !!!!!!!!!!!!!!!!!!!!!!!!!BUTTONS !!!!!!!!!!!!!!!!!!!! */
@@ -157,10 +171,10 @@ header{
     max-width: 600px;
 }
 
-.errors-container{
+/* .errors-container{
    /*  width: 100%;
-    max-width: 800px; */
-}
+    max-width: 800px; 
+} */
 
 
 .errors-container p{
@@ -487,3 +501,5 @@ border-right: none
  .card-text{
    text-align: justify;
  }
+
+
