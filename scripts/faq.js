@@ -13,4 +13,3 @@ const toggleFaqs = (event) => {
 faqHeadings.forEach(heading => {
   heading.addEventListener('click', toggleFaqs);
 })
-console.log(faqHeadings)
