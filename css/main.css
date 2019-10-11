@@ -68,7 +68,7 @@ h4{
 }
 
 input {
-    margin: 10px;/*  !!!!!!!!!!!!!!!!!!!!!!!!!BUTTONS !!!!!!!!!!!!!!!!!!!! */
+    /*  !!!!!!!!!!!!!!!!!!!!!!!!!BUTTONS !!!!!!!!!!!!!!!!!!!! */
     height: 40px;
     border: none;
     border-bottom: solid 2px var(--red-color);
@@ -82,8 +82,6 @@ input:focus{
 
 button, .button{
     height: 40px;
-    margin: 10px;
-    color: white;
     box-shadow: 3px 3px 0px var(--red-color);
     
 }
@@ -93,7 +91,7 @@ button:hover, .button.hover{
 }
 
 button:disabled, .button:disabled{
-    background-color: grey;
+    background-color: #768cab;
 }
 
 
@@ -102,7 +100,7 @@ button:disabled, .button:disabled{
 /* ////////LOGO TOTORO//////// */
 
 #logo-totoro {
-  width: 125px;
+  width: 100px;
   height: 10px;
   min-width: 6%;
   min-height: auto;
@@ -390,12 +388,13 @@ main {
 }
 
 .card:hover{
-  transition: 1s ease;
-  transform: scale(1.1);
+  transition: 1s ease-in-out;
+  transform: scale(1.05);
 }
 
 .submit-btn{
   width: 100%;
+  background-color: #768cab;
 }
 
 
@@ -417,7 +416,7 @@ main {
 
  @media only screen and (max-width: 480px) {
   #logoTotoro {
-    width: 75px;
+    width: 50px;
     height: auto;
     min-width: auto;
     min-height:auto;
@@ -460,7 +459,7 @@ main {
    }
 
 .Navbar_Link a {
-  padding: ;
+  padding: 5px;
   align-self: flex-end;
 }
 
@@ -479,5 +478,12 @@ main {
 .Navbar_Items-right  li:last-child {
 border-right: none
 }
+ }
 
-}
+ label{
+   color: white;
+ }
+
+ .card-text{
+   text-align: justify;
+ }
