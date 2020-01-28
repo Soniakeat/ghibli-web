@@ -12,7 +12,8 @@ MVP definition, deliverables.
 
 
 ## Backlog
-Presentation by film ( one or all) with more details.
+- Presentation by film ( one or all) with more details.
+- Animations/Design
 
 ## Data structure
 Classes and methods definition.
