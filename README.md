@@ -1,7 +1,6 @@
 # Project's name
 The World of Studio Ghibli
 ## Description
-Brief description of the project
 Presentation of the Ghibli animation films.
 
 
