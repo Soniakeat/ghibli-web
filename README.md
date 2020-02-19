@@ -1,8 +1,9 @@
 # Project's name
 The World of Studio Ghibli
+
 ## Description
-Brief description of the project
 Presentation of the Ghibli animation films.
+To discover or rediscover at will the magical world of animated films by the talented Hayao Miyazaki.
 
 
 ## MVP (DOM - RESPONSIVE SITE)
@@ -108,18 +109,16 @@ Task definition in order of priority
 
 ## Links
 
-
 ### Trello
-[Link url](https://trello.com)
-https://trello.com/b/Vj2n5akm/studio-ghibli-web
+[Link url](https://trello.com/b/Vj2n5akm/studio-ghibli-web)
 
 
 ### Git
 URls for the project repo and deploy
-[Link Repo](http://github.com)
-[Link Deploy](http://github.com)
+[Link Repo](https://github.com/Soniakeat/ghibli-web)
+[Link Deploy](https://soniakeat.github.io/ghibli-web/)
 
 
 ### Slides
 URls for the project presentation (slides)
-[Link Slides.com](http://slides.com)
+[Link Slides.com](https://docs.google.com/presentation/d/151c0aFX96g1_ZRdmMOC9Flkj9VJu0mYKz9vycLLnC94/edit?usp=sharing)
