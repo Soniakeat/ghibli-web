@@ -14,7 +14,8 @@ MVP definition, deliverables.
 
 
 ## Backlog
-Presentation by film ( one or all) with more details.
+- Presentation by film ( one or all) with more details.
+- Animations/Design
 
 ## Data structure
 Classes and methods definition.
@@ -122,3 +123,4 @@ URls for the project repo and deploy
 ### Slides
 URls for the project presentation (slides)
 [Link Slides.com](https://docs.google.com/presentation/d/151c0aFX96g1_ZRdmMOC9Flkj9VJu0mYKz9vycLLnC94/edit?usp=sharing)
+
