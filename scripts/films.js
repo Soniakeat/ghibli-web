@@ -1,4 +1,4 @@
-
+/* 
 'use strict';
 
 const connectToApi = () => { //hacemos función para poder llamarla en otro momento.
@@ -29,4 +29,4 @@ const connectToApi = () => { //hacemos función para poder llamarla en otro mome
   }
 }
 
-connectToApi();
+connectToApi(); */

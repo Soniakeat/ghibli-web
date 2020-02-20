@@ -2,7 +2,6 @@
 
 class Validator {
 
-  //Cómo va a funcionar?
   /*
   Validaré el email y el password. Cada vez que modifiquemos esos campos (sin necesidad de darle al botón) irá comprobando las diferentes validaciones y añadiendo, menteniendo o quitando los errores en un objeto. Después, desde signup, veremos qué errores hay en el objeto y actuaremos en consecuencia. El botón de signup estará desactivado hasta que todo esté correctamente validado.
   */

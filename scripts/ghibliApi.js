@@ -90,7 +90,7 @@ async function getUsers() {
     for (let i = 0; i<data.length; i++){
         let image = photos.find(photo => photo.id === data[i].id).url
 
-        let card =document.createElement("div")
+        let card = document.createElement("div")
         card.setAttribute("class", "card")
         card.innerHTML = `<img src="${image}" class="card-img-top" alt="...">
         <div class="card-body">
