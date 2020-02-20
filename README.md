@@ -14,7 +14,7 @@ MVP definition, deliverables.
 
 
 ## Backlog
-- Presentation by film ( one or all) with more details.
+- Presentation by film (all or one) with more details.
 - Animations/Design
 
 ## Data structure
@@ -101,10 +101,11 @@ Task definition in order of priority
 - Login.html
 
 - main.js 
-- Films.js
+- ghibliApi.js
 - Faq.js
 - Signup.js
 - Login.js
+- Users.js
 - Validator.js
 
 
