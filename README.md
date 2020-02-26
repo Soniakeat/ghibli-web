@@ -1,9 +1,8 @@
 # Project's name
-The World of Studio Ghibli
+Studio Ghibli
 
 ## Description
-Presentation of the Ghibli animation films.
-To discover or rediscover at will the magical world of animated films by the talented Hayao Miyazaki.
+Studio Ghibli is a responsive app which present the Ghibli animation films.To discover or rediscover at will the magical world of animated films by the talented Hayao Miyazaki.
 
 
 ## MVP (DOM - RESPONSIVE SITE)

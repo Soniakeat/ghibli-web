@@ -2,67 +2,63 @@
 *,
 *::after,
 *::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --text-color: rgb(144, 212, 138);
-    --white-color: #FFF;
+  --text-color: rgb(144, 212, 138);
+  --white-color: #FFF;
 }
 
 body{
-    margin: 0;
-	  height: 80%;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    line-height: normal;
-    background-color: #34495E;
+  margin: 0;
+  height: 80%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #34495E;
 }
 
-
-
 .container{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 a{
-    text-decoration: none;
-    color: white;
-
+  text-decoration: none;
+  color: white;
 }
 
 a:hover{
-    color: var(--red-color);
+  color: var(--red-color);
 }
 
 h1{
-    font-size: 70px;
-    margin-bottom: 20px;
-    color: whitesmoke;
+  font-size: 70px;
+  margin-bottom: 20px;
+  color: whitesmoke;
 }
 
 h2{
-    font-size: 30px;
-    display: inline;
-    text-transform: uppercase;
-    letter-spacing: 6px;
+  font-size: 30px;
+  display: inline;
+  text-transform: uppercase;
+  letter-spacing: 6px;
 
-    font-family: 'Calligraffitti', cursive;
-    text-align: center;
-    color: whitesmoke;
+  font-family: 'Calligraffitti', cursive;
+  text-align: center;
+  color: whitesmoke;
 }
 
-
 h3 {
-    color: var(--red-color);
-    font-size: 26px;
+  color: var(--red-color);
+  font-size: 26px;
 }
 
 h4{
-    font-size: 22px;
+  font-size: 22px;
 }
 
 #slogan{
@@ -81,38 +77,35 @@ h4{
     line-height: 1.5;   
 }
 
+/* --- BUTTONS --- */
 
 input {
-    /*  !!!!!!!!!!!!!!!!!!!!!!!!!BUTTONS !!!!!!!!!!!!!!!!!!!! */
-    height: 40px;
-    border: none;
-    border-bottom: solid 2px var(--red-color);
-    text-align: center;
+  height: 40px;
+  border: none;
+  border-bottom: solid 2px var(--red-color);
+  text-align: center;
 }
 
 input:focus{
-    border-bottom: solid 2px var(--text-color);
-    outline-color: #cde661;
+  border-bottom: solid 2px var(--text-color);
+  outline-color: #cde661;
 }
 
 button, .button{
-    height: 40px;
-    box-shadow: 3px 3px 0px var(--red-color);
-    
+  height: 40px;
+  box-shadow: 3px 3px 0px var(--red-color);  
 }
 
 button:hover, .button.hover{
-    background-color:#4e4e4e;
+  background-color:#4e4e4e;
 }
 
 button:disabled, .button:disabled{
-    background-color: #768cab;
+  background-color: #768cab;
 }
 
 
-
-
-/* ////////LOGO TOTORO//////// */
+/* --- LOGO TOTORO --- */
 
 #logo-totoro {
   width: 100px;
@@ -122,13 +115,14 @@ button:disabled, .button:disabled{
 }
 
 .logo-totoro {
-		width: 2%;
-		height: auto;
-    min-width: 6%;
-    min-height:auto;
-    }
+  width: 2%;
+  height: auto;
+  min-width: 6%;
+  min-height:auto;
+}
 
-/*//////////////TITLE/////////////*/
+/* --- TITLE --- */
+
 #title{
 	font-family: 'Calligraffitti', cursive;
   margin-bottom: 40px;
@@ -143,57 +137,49 @@ header{
 }
 
 
-/* /////////////////////////////////////////////// */
-  
+/* --- IMAGE LOGIN --- */
+
   .login_love{
     padding: 20px;
     max-width: 300px;
   }
 
 
-/* SIGNUP PAGE & LOGIN PAGE (MODELO) */
+/* --- SIGNUP PAGE & LOGIN PAGE --- */
 
 .signup, .login{
     text-align: center;
 }
 
 .form-wrapper{
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .form-wrapper > form{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
 }
 
-/* .errors-container{
-   /*  width: 100%;
-    max-width: 800px; 
-} */
-
-
 .errors-container p{
-    padding: 20px;
-    margin: 10px 0;
-    color: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #feb1b1;
+  padding: 20px;
+  margin: 10px 0;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #feb1b1;
 }
 
 .errors-container p.correct-message {  
-    box-shadow: 0 0 10px #a3e459;
+  box-shadow: 0 0 10px #a3e459;
 }
 
 
-
-/*/////////FAQS PAGE/////////////// */
-
+/* --- FAQS --- */
 
 .header-faqs{
   height:6vh;
@@ -203,10 +189,6 @@ header{
   font-size:35px;
 }
 
-
-
-
-/* //////////FAQ//////////////*/
 .faqs{
   width: 100%;
   max-width: 900px;
@@ -226,7 +208,7 @@ header{
 }
 
 .faq-heading > h4 {
-  width: 85%; /*para que no corte a la flecha*/
+  width: 85%; 
 }
 
 .faq-heading > .faq-arrow{
@@ -254,8 +236,7 @@ header{
 }
 
 
-/*///////////faqs dropdown/////////// */
-
+/* --- FAQS DROPDOWN --- */
 
 .faqs > .faq > .faq-main{ 
   padding: 0 20px;
@@ -288,7 +269,7 @@ header{
 }
 
 
-/*NAVBAR*/
+/* --- NAVBAR --- */
 
 #logoTotoro {
   max-width: 90px; 
@@ -298,7 +279,6 @@ header{
 }
 
 .Navbar {
-  /* background-color: rgba(131, 129, 163, 0.377);  */
   display: flex;
   justify-content: space-between;
   padding: 16px;
@@ -308,13 +288,13 @@ header{
 
 }
 
-
 .Navbar_Link {
   padding: 1%;
   display: flex;
   align-items: center;
   height: max-content;
 }
+
 .Navbar ul {
   margin: 0 auto;
   list-style-type: none;
@@ -338,7 +318,7 @@ header{
   justify-content: flex-end;
 }
 
-/* ///////VERTICAL BAR MENU/////// */
+/* --- VERTICAL BAR MENU --- */
 
 .Navbar_Items-right  li {
 border-right: 1px solid #ffffff;
@@ -347,54 +327,47 @@ border-right: 1px solid #ffffff;
 border-right: none
 }
 
-
-
 .Navbar-small {
   display: none;
 }
 
- .Navbar_Link a {
+.Navbar_Link a {
   text-decoration: none;
-  /*display: block;*/
   padding: 10px;
 }
 
 .Navbar_Link a, a:visited {
-     color: rgb(253, 253, 253);
+  color: rgb(253, 253, 253);
 }
 
 .Navbar_Link a:hover {
-  
   color: rgb(146, 169, 204);
 }
+
 .Navbar_Link a:active {
-  /*display: block;*/
   padding: 10px;
   color: rgb(0, 9, 128);
 }
 
-/* //////////////////////////////// */
-
+/* --- --- */
 
 #main{ 
   max-width: 1280px; 
   min-height: 100%; 
   margin: 0 auto;
   position: relative;
-
-  }
+}
     
-  footer{
+footer{
   bottom:0;
   width:100%;
   padding-top:50px;
   height:50px;
-  }
+}
 
 .card{
   min-width: 30%;
   transition: 1s ease-in-out;
-
 }
 
 .card:hover{
@@ -409,24 +382,8 @@ border-right: none
   background-color: #768cab;
 }
 
-
-
-/* Switch to hamburger menu on tablets */
-
-/* @media only screen and ( max-width:1024px) {
-	#et_mobile_nav_menu {
-		display: block;
-	}
-	#top-menu-nav {
-		display: none;
-	}
-	.et_header_style_left .mobile_menu_bar {
-		padding-bottom: 50px;
-	}
-}
- */
-
- @media only screen and (max-width: 480px) {
+/* --- SCREEN < 480px --- */
+@media only screen and (max-width: 480px) {
   #logoTotoro {
     width: 50px;
     height: auto;
@@ -444,79 +401,83 @@ border-right: none
     flex-direction: column;
   }
     
-.Navbar_Items {
+  .Navbar_Items {
     display: none;
     cursor: pointer;
   }
     
-.Navbar_Items-right {
+  .Navbar_Items-right {
     margin-top: 2vh;
     justify-content: flex-end;
     margin-right: 0.1em;
   }
     
-.Navbar_ToggleShow {
+  .Navbar_ToggleShow {
     display: flex;
     align-self: flex-end;
 
   }
     
-.Navbar-small {
+  .Navbar-small {
     align-self: flex-end;
     align-items: flex-start;
     display: initial;
     position: absolute;
     cursor: pointer;
     margin-bottom: 10px;
-   }
-
-.Navbar_Link a {
-  padding: 5px;
-  align-self: flex-end;
-}
-
-.Navbar-small span {
-  background: black;
-  width: 1.5em;
-  height: 3px;
-  display: block;
-  margin-bottom: 3px;
-  align-self: flex-end;
-} 
-.Navbar_Items-right  li {
-  border-right: none;
   }
 
-.Navbar_Items-right  li:last-child {
-border-right: none
+  .Navbar_Link a {
+    padding: 5px;
+    align-self: flex-end;
+  }
+
+  .Navbar-small span {
+    background: black;
+    width: 1.5em;
+    height: 3px;
+    display: block;
+    margin-bottom: 3px;
+    align-self: flex-end;
+  } 
+
+  .Navbar_Items-right  li {
+    border-right: none;
+  }
+
+  .Navbar_Items-right  li:last-child {
+    border-right: none
+  }
 }
- }
 
- label{
-   color: white;
- }
 
- .card-text{
-   text-align: justify;
- }
+label{
+  color: white;
+}
+
+.card-text{
+  text-align: justify;
+}
+
+/* --- SCREEN > 576px --- */
 
  @media (min-width: 576px) {
-.card-deck {
- margin: 0;
+  .card-deck {
+  margin: 0;
+  }
+  .card{
+    margin-left: 0 !important;
+    margin-right: 0 !important
+  }
 }
-.card{
-  margin-left: 0 !important;
-  margin-right: 0 !important
 
- }
+
+.faqs-container{
+  padding: 0 2%;
 }
 
- .faqs-container{
-   padding: 0 2%;
- }
-
- .cto{
+.cto{
   border: 1px solid #e2e2e2;
   padding: 10px;
   font-size: 14px;
- }
+}

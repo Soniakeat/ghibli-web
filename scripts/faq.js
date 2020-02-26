@@ -4,8 +4,7 @@ const faqHeadingsNodes = document.querySelectorAll('.faq-heading');
 const faqHeadings = [...faqHeadingsNodes];
 
 const toggleFaqs = (event) => {
-  console.dir(event.currentTarget); //console.dir para ver el objeto
-  //usamos currentElement porque así cogerá el elemento que tiene el evento, y no sobre el que clicas (H4, arrow...)
+  console.dir(event.currentTarget); 
   const faqArticle = event.currentTarget.parentElement;
   faqArticle.classList.toggle("toggle-faq-on");
 }

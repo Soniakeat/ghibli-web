@@ -98,16 +98,14 @@ async function getUsers() {
             <p class="card-text font-weight-light">${data[i].description}</p>
         </div>
         <ul class="list-group list-group-flush">
-    <li class="list-group-item"><small class="text-muted font-weight-bold">RELEASE DATE : ${data[i].release_date}</small></li>
-    <li class="list-group-item"><small class="text-muted font-weight-bold">DIRECTOR : ${data[i].director}</small></li>
-    <li class="list-group-item"><small class="text-muted font-weight-bold">PRODUCER : ${data[i].producer}</small></li>
-    <li class="list-group-item"><small class="text-muted font-weight-bold">RATE SCORE : ${data[i].rt_score}</small></li>
-  </ul>`
+            <li class="list-group-item"><small class="text-muted font-weight-bold">RELEASE DATE : ${data[i].release_date}</small></li>
+            <li class="list-group-item"><small class="text-muted font-weight-bold">DIRECTOR : ${data[i].director}</small></li>
+            <li class="list-group-item"><small class="text-muted font-weight-bold">PRODUCER : ${data[i].producer}</small></li>
+            <li class="list-group-item"><small class="text-muted font-weight-bold">RATE SCORE : ${data[i].rt_score}</small></li>
+        </ul>`
         div.appendChild(card)
-
     }
-   
-
 }
+
 getUsers();
 
